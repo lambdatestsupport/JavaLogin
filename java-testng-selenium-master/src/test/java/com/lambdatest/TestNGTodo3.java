@@ -48,10 +48,10 @@ public class TestNGTodo3 {
         driver.manage().window().maximize();
         Thread.sleep(2000);
         // Enter your login email id
-        driver.findElement(By.id("email")).sendKeys("shubhamr@lambdatest.com");
+        driver.findElement(By.id("email")).sendKeys("enter the username");
 
         // Enter your login password
-        driver.findElement(By.id("password")).sendKeys("Gmail@123");
+        driver.findElement(By.id("password")).sendKeys("enter password");
         driver.findElement(By.id("login-button")).sendKeys(Keys.ENTER);
 
         Thread.sleep(20000);
