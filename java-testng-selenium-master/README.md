@@ -99,6 +99,8 @@ You can generate capabilities for your test requirements with the help of our in
 **Step 4:** The tests can be executed in the terminal using the following command.
 
 ```bash
+
+For running a Loginpage in lambdatest
 mvn test -D suite=single.xml
 ```
 
